@@ -11,6 +11,10 @@ body{
 	background: url(../images/圈圈.jpg) repeat-y;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif,"幼圆", "微软雅黑";
 }
+.warrper{
+	width: 960px;
+	margin: 0 auto;
+}
 header .navbar{
 	margin-bottom: 0;
 }
@@ -31,7 +35,7 @@ header .header-img{
 	padding: 0 40px 0 100px;
 }
 footer{
-	margin: 20px 0 200px 0;
+	margin: 20px auto 200px;
 	width: 100%;
 	text-align: center;
 }
