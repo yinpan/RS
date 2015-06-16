@@ -1,0 +1,21 @@
+.contain{
+	margin-top: 10px;
+}
+.content_0{
+	max-width: 800px;
+	margin: 0 auto;
+}
+ol{
+	list-style: upper-alpha;
+	padding-left: 25px;
+}
+.contain .content_0 span{
+	color:red;
+	font-weight: bolder;
+}
+.contain p{
+	text-indent: 2em;
+}
+.part{
+	margin: 70px 0;
+}

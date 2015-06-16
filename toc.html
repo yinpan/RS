@@ -1,23 +1,23 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-  <head>
-    <meta charset="utf-8">
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>RS Online</title>
+    <title>目录</title>
     <link rel="short icon" href="ico/Satellite.ico">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="css/toc.css"/>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
-  <body>
-      <header>
+</head>
+<body>
+    <header>
         <!--导航栏-->
         <nav class="navbar navbar-default">
           <div class="container-fluid">
@@ -33,7 +33,7 @@
             <!--导航项目-->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="index.html">首页 <span class="sr-only">(current)</span></a></li>
+                <li class=""><a href="index.html">首页 <span class="sr-only">(current)</span></a></li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">目录 <span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
@@ -72,28 +72,84 @@
            <h1><img src="images/ico/Satellite.ico" />遥感原理及应用在线课程</h1>
         </div>
     </header>
+
     <div class="contain">
-      <div class="content">
-          <h2>本课程的重点与难点汇总</h2><br/>
-          <h4>重点：</h4>
-          <ul >
-            <li>不同卫星系列的遥感图像特点;</li>
-            <li>遥感器特性;</li>
-            <li>评价遥感影像的主要指标（空间分辨率、光谱分辨率、辐射分辨率）；</li>
-          </ul>
-          <h4>难点：</h4><br/>
-          <ul>
-            <li>不同卫星系列的遥感图像特点；</li>
-          </ul>
-        <div class="start">
-            <a id="sumbit" href="toc.html" onmousedown="style.borderBottomWidth='1px',style.marginTop='3px';" onmouseup="style.borderBottomWidth='4px';style.marginTop='0'">开始</a>
+        <div class="content" id="content">
+            <div class="part">
+                <span>1.关于本课程</span>
+                <ul>
+                    <li><a href="index.html"><i class="jieshao"></i>介绍</a></li>
+                </ul>
+            </div>
+            <div class="part">
+                <span>2.遥感平台</span>
+                <ul>
+                    <li><a href="1.html"><i class="pingtai"></i>气象卫星系列</a></li>
+                    <li><a href="#"><i class="pingtai"></i>陆地卫星系列</a></li>
+                    <li><a href="#"><i class="pingtai"></i>海洋卫星系列</a></li>
+                </ul>
+            </div>
+            <div class="part">
+                <span>3.摄影成像</span>
+                <ul>
+                    <li><a href="#"><i class="toimg"></i>摄影机</a></li>
+                    <li><a href="#"><i class="toimg"></i>摄影相片的几何特征</a></li>
+                    <li><a href="#"><i class="toimg"></i>摄影胶片的物理特征</a></li>
+                </ul>
+            </div>
+            <div class="part">
+                <span>4.扫描成像</span>
+                <ul>
+                    <li><a href="#"><i class="shaomiao"></i>光/机扫描成像</a></li>
+                    <li><a href="#"><i class="shaomiao"></i>固体自扫描成像</a></li>
+                    <li><a href="#"><i class="shaomiao"></i>高光谱成像光谱扫描</a></li>
+                </ul>
+            </div>
+            <div class="part">
+                <span>5.微波遥感与成像</span>
+                <ul>
+                    <li><a href="#"><i class="weibo"></i>微波遥感的特点</a></li>
+                    <li><a href="#"><i class="weibo"></i>微波遥感方式和传感器</a></li>
+                </ul>
+            </div>
+            <div class="part part_1">
+                <span>6.遥感图像的特点</span>
+                <ul>
+                    <li><a href="#"><i class="img"></i>遥感图像的空间分布率</a></li>
+                    <li><a href="#"><i class="img"></i>遥感图像的波谱分布率</a></li>
+                    <li><a href="#"><i class="img"></i>遥感图像的辐射分布率</a></li>
+                    <li><a href="#"><i class="img"></i>遥感图像的时间分布率</a></li>
+                </ul>
+            </div>
+            <div class="part">
+                <span>7.结束本课程</span>
+                <ul>
+                    <li><a href="#"><i class="tuozhan"></i>拓展与思考</a></li>
+                </ul>
+            </div>
         </div>
-      </div>
     </div>
+    
+
     <footer>
         <div class="copyright"><p><span>Copyright © yinpan</span></p></div>
     </footer>
     <script src="js/jquery-2.1.3.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-  </body>
+    <script>
+    (function(){
+        var oLi =document.getElementById('content').getElementsByTagName('li');
+        for (var i = oLi.length - 1; i >= 0; i--) {
+            oLi[i].onmousedown=function(){
+            this.style.marginTop='13px';
+            this.style.borderBottomWidth='1px';
+            };
+            oLi[i].onmouseup=function(){
+            this.style.marginTop='10px';
+            this.style.borderBottomWidth='4px';
+            };        
+        }
+    }());
+    </script>
+</body>
 </html>

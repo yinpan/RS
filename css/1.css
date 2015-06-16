@@ -1,0 +1,33 @@
+.contain{
+	margin-top: 10px;
+}
+.content_0{
+	max-width: 800px;
+	margin: 0 auto;
+}
+.title p{
+	font-size: 1.2em;
+	margin-top: 20px;
+	text-indent: 2em;
+}
+.tab-content{
+	padding: 10px 0 40px 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #ddd;
+	height: 300px;
+}
+.tab-content span{
+	font-weight: bolder;
+	color: rgb(144, 28, 28);
+	font-size: 1.1em;
+}
+.tab-left-right div{
+	float: left;
+	width: 45%;
+	margin-right: 5%;
+}
+.right{
+	padding-left: 5%;
+	border-left: 1px dotted #333;
+}
+

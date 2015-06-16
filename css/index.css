@@ -1,0 +1,42 @@
+.contain{
+    background: #ffffff;
+    margin: -20px auto;
+}
+.contain .content{
+    width: 500px;
+    margin: 0 auto;
+    padding: 25px 10px 80px;
+}
+.content ul{
+    list-style: none;
+}
+#sumbit{
+    line-height: 27px;
+    text-align:center;
+    background-color: rgb(214, 64, 120);
+    color: white;
+    padding: .2em 0;
+    display: block;
+    text-decoration: none;
+    border: solid #86284B 1px;
+    border-bottom: solid #b03060 4px;
+    text-shadow: 0px 2px 0 #b03060;
+    -webkit-transition: all 0.1s ease-out;
+    -moz-transition: all 0.1s ease-out;
+    -o-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
+    font-size: 1em;
+    cursor: pointer;
+    top: 3px;
+    -webkit-border-radius:.5em .5em .5em .5em ;
+    -moz-border-radius:.5em .5em .5em .5em ;
+    border-radius:.5em .5em .5em .5em ;
+    border-right:none;
+    width: 145px;
+    float: left;
+}
+.start{
+    margin: 50px auto 0;
+    width: 150px;
+    height: 30px;
+}

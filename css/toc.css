@@ -1,0 +1,75 @@
+.contain{
+  width: 100%;
+  padding: 40px 0;
+
+}
+.content{
+  width: 685px;
+  margin: 0 auto;
+
+}
+.content a{
+  padding: 20px;
+}
+.content .part{
+  width: 100%;
+  border-bottom: 1px dotted pink;
+  height: 100px;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 5px;
+  padding-left: 20px;
+}
+.content .part span{
+  font-size: 1.1em;
+  background: #F2572D;
+  position: absolute;
+  top: -50px;
+  left: 45%;  
+}
+.content .part_1{
+  height: 170px;
+}
+
+.content ul{
+  list-style: none;
+
+}
+.content li{
+  margin: 10px 10px;
+  width: 200px;
+  display: block;
+  background: #D9D0C7;
+  text-align: center;
+  line-height: 40px;
+  background-color: rgb(214, 64, 120);
+  padding: .1em 0;
+  text-decoration: none;
+  border: solid #86284B 1px;
+  border-bottom: solid #b03060 4px;
+  text-shadow: 0px 2px 0 #b03060;
+  -webkit-transition: all 0.1s ease-out;
+  -moz-transition: all 0.1s ease-out;
+  -o-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
+  font-size: .9em;
+  cursor: pointer;
+  -webkit-border-radius:.5em .5em .5em .5em ;
+  -moz-border-radius:.5em .5em .5em .5em ;
+  border-radius:.5em .5em .5em .5em ;
+  border-right:none;
+  float: left;
+}
+.content li a{
+  color: white;
+}
+.content hr{
+
+}
+.content li:hover{
+  background: #D74047;
+  
+}
+.content li:hover a{
+  color: white;
+}

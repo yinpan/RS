@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>遥感平台</title>
+    <link rel="short icon" href="ico/Satellite.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/2.css"/>
+    <link rel="stylesheet" href="css/zoom.css" media="all"/>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+      <header>
+        <!--导航栏-->
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html">RS Online</a>
+            </div>
+            <!--导航项目-->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li class=""><a href="index.html">首页 <span class="sr-only">(current)</span></a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">目录 <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">遥感平台</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">摄影成像</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">扫描成像</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default">搜索</button>
+              </form>
+              <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">关于<span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="http://github.com/yinpan">Fork me On GitHub</a></li>
+                    <li class="divider"></li>
+                    <li>
+                        <a href="mailto:yin.pan@live.com">Email to me</a>
+                    </li>
+                    <li class="divider"></li>
+                    <li><a href="http://weibo.com/yinpan93">Sina Weibo</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+        <div class="logo">
+           <h1><img src="images/ico/Satellite.ico" />遥感原理及应用在线课程</h1>
+        </div>
+    </header>
+    <div class="contain" id="contain">
+      <div class="content_0 container">
+        <h2 class="text-center">气象卫星系列</h2>
+        <div class="warp">
+          <div class="part">
+            <h4>气象卫星概述</h4>
+            <ol>
+              <li><span>美国的“泰诺斯 ”(TIROS)卫星系列：</span>第一代实验气象卫星，从60年-65年共发射了10颗，极轨气象卫星。</li>
+              <li><span>美国的雨云（Nimbus）卫星系列：</span> 64-78年共发射了7颗，太阳同步轨道。</li>
+              <li><span>美国的艾萨（ESSA）卫星系列：</span>66-69年共发射了9颗。</li>
+              <li><span>美国的NOAA卫星系列：</span>70-94年共发射了16颗。太阳同步轨道。</li>
+            </ol>
+            <p>1960年4月美国发射了第一颗气象卫星泰罗斯-1(Tiros-1)。随后，前苏联也相继发射了自己的气象卫星。目前，在轨道上运行的大多数气象卫星是由美国和俄罗斯发射的，其中很大一部分为极地轨道卫星，简称极轨卫星。 
+            </p>
+            <p>1966年美国发射第一颗业务气象卫星艾萨(ESSA)是极轨卫星，主要提供可见光云图。 1970年、1978年美国又相继发射诺阿(NOAA）和泰罗斯－N系列业务气象卫星。这些卫星都属于极轨气象卫星。极轨气象卫星的飞行高度一般在800－1500公里左右。由于卫星的飞行高度低，因此卫星照片分辨率高，图象清晰。
+            </p>
+            <p>1974年，美国成功地研制了第一颗静止业务环境监测卫星(GOES)。静止业务环境监测卫星在赤道的某一经度、约36000公里高度上，它环绕地球一周约需24小时，几乎与地球自转同步。从地球上看好象卫星是相对静止的，故又称为地球静止卫星。</p>
+            <p>目前，日本GMS系列静止气象卫星、俄罗斯的GOMES卫星、欧盟 METEOSAT-3 卫星、印度的INSAT以及美国的两颗静止卫星(GOES-E和GOES-W)共6颗卫星组成地球静止气象卫星监测网。这些卫星位于赤道上空约36000公里高，每半小时向地球发送一次图片。
+            </p>
+            <p>
+              中国也先后成功地发射了9颗气象卫星（4颗风云－1和5颗风云－2）。依靠这些卫星，中国建立了自己的卫星天气预报和监测系统。风云－1是一种极地轨道气象卫星。风云－2是一种静止气象卫星。
+            </p>
+             <div class="panel panel-default">
+              <div class="panel-heading text-center">我国气象卫星情况</div>
+                <table class="table">
+                <thead>
+                      <tr>
+                        <th>#</th>
+                        <th>时间</th>
+                        <th>型号</th>
+                        <th>发射星</th>
+                        <th>类型</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>1988年9月7日</td>
+                        <td>FY-1</td>
+                        <td>A星发射</td>
+                        <td>试验星</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>1990年9月3日</td>
+                        <td>FY-1</td>
+                        <td>B星发射</td>
+                        <td>试验星</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>1997年6月10日</td>
+                        <td>FY-2</td>
+                        <td>A星发射</td>
+                        <td>无</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>1999年5月10日</td>
+                        <td>FY-1</td>
+                        <td>C星发射</td>
+                        <td>业务星</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th>
+                        <td>2000年6月25日</td>
+                        <td>FY-2</td>
+                        <td>B星发射</td>
+                        <td>无</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">6</th>
+                        <td>2008年5月27日</td>
+                        <td>FY-3</td>
+                        <td>B星发射</td>
+                        <td>无</td>
+                      </tr>
+                    </tbody>
+                </table>
+             </div>
+          </div>
+          <div class="part">
+            <h4>气象卫星的特点</h4>
+            <ol>
+              <li>轨道：低轨和高轨</li>
+              <li>成像面积大，有利于获得宏观同步信息，减少数据处理容量。</li>
+              <li>短周期重复观测：静止气象卫星30分钟一次；极轨卫星半天一次。利于动态监测。</li>
+              <li>资料来源连续、实时性强、成本低。</li>
+            </ol>
+          </div>
+          <div class="part">
+            <h4>气象卫星的应用领域</h4>
+            <ol>
+              <li>天气分析与气象预报</li>
+              <li>气候研究与气候变迁的研究。</li>
+              <li>资源环境领域：海洋研究、森林火灾、水污染。</li>
+            </ol>
+          </div>
+          <div class="picture">
+            <p class="text-center">实例</p>
+              <ul class="gallery">
+                <li><a href="images/pingtai/1-1.jpg"><img src="images/pingtai/1-1.jpg"><p>NOAA-16 热带气旋</p></a></li>
+                <li><a href="images/pingtai/1-2.jpg"><img src="images/pingtai/1-2.jpg"><p>NOAA-16 沙尘暴</p></a></li>
+                <li><a href="images/pingtai/1-3.jpg" height="766" width="1022"><img src="images/pingtai/1-3.jpg"><p>沙尘暴监测</p></a></li>
+                <li><a href="images/pingtai/1-4.jpg"><img src="images/pingtai/1-4.jpg"><p>森林火灾监测</p></a></li>
+                <li><a href="images/pingtai/1-5.jpg"><img src="images/pingtai/1-5.jpg"><p>海水监测</p></a></li>
+                <li><a href="images/pingtai/1-6.jpg"><img src="images/pingtai/1-6.jpg"><p>全国植被动态监测
+                </p></a></li>
+                <li><a href="images/pingtai/1-7.jpg"><img src="images/pingtai/1-7.jpg"><p>沙漠地貌</p></a></li>
+                <li><a href="images/pingtai/1-8.jpg"><img src="images/pingtai/1-8.jpg"><p>祝贺风云一号D气象卫星发射成功!</p></a></li>
+                <li><a href="images/pingtai/1-9.jpg"><img src="images/pingtai/1-9.jpg"><p>IMAGE OF FY-2</p></a></li>
+                <li><a href="images/pingtai/1-10.jpg"><img src="images/pingtai/1-10.jpg"><p>风云二号气象卫星云图</p></a></li>
+              </ul>
+            <div class="clear">
+              <hr>
+            </div>
+          </div>
+          <div class="part">
+              <div class="picture">
+                <p class="text-center">气象卫星的作业————卫星遥感·产品</p>
+                  <ul class="gallery">
+
+                      <li><a href="images/pingtai/1-11.jpg"><img src="images/pingtai/1-11.jpg"><p>归一化植被指数图</p></a></li>
+                      <li><a href="images/pingtai/1-12.jpg"><img src="images/pingtai/1-12.jpg"><p>海温指数</p></a></li>
+                      <li><a href="images/pingtai/1-13.jpg"><img src="images/pingtai/1-13.jpg"><p>珠江口泥沙</p></a></li>
+                      <li><a href="images/pingtai/1-14.jpg"><img src="images/pingtai/1-14.jpg"><p>热岛效应</p></a></li>
+                      <li><a href="images/pingtai/1-15.jpg"><img src="images/pingtai/1-15.jpg"><p>火山爆发</p></a></li>
+                  </ul>
+            </div>
+            <div class="clear"></div>
+          </div>
+		  </div>
+    </div>
+    <div class="daohang">
+    	<nav>
+			  <ul class="pagination">
+			    <li>
+			      <a href="1.html" aria-label="Previous">
+			        <span aria-hidden="true">&laquo;</span>
+			      </a>
+			    </li>
+			    <li><a href="1.html">1</a></li>
+			    <li class="active"><a href="2.html">2</a></li>
+			    <li><a href="3.html">3</a></li>
+			    <li><a href="4.html">4</a></li>
+			    <li><a href="5.html">5</a></li>
+			    <li>
+			      <a href="3.html" aria-label="Next">
+			        <span aria-hidden="true">&raquo;</span>
+			      </a>
+			    </li>
+			  </ul>
+			</nav>
+    </div>
+    <footer>
+        <div class="copyright"><p><span>Copyright © yinpan</span></p></div>
+    </footer>
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/zoom.min.js"></script>
+  </body>
+</html>
