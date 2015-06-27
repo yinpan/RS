@@ -14,6 +14,7 @@ body{
 	font-size: 1.5em;
 	font-family: HelveticaNeueLTStd-Bd,HelveticaNeue-Bold,'Helvetica Neue',Helvetica,Arial,sans-serif,"幼圆";
 	font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "WenQuanYi Micro Hei", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
+	margin-top: 50px;
 }
 header{
 	margin-bottom: 0;
@@ -109,5 +110,40 @@ footer .copyright{
 	margin:10px 20px;
 	}		
 }
+#back-to-top{
+	position: fixed;
+	right: 40px;
+	bottom: 40px;
+}
+#discuss-btn{
+	position: fixed;
+	right: 40px;
+	bottom: 80px;
+}
 
+.gallery li{
+	position: relative;
+}
+.gallery li i{
+	background: rgba(255,255,255,.8) url(../images/find.png) no-repeat center center;
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	right: 0px;
+	top: 0px;
+}
+.gallery li i.micro{
+	background: rgba(255,255,255,.8) url(../images/micro-find.png) no-repeat center center;
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	right: 3px;
+	top: 3px;
+}
+.discuss{
+	min-width: 300px;
+	max-width: 800px;
+	margin: 30px auto;
+	
+}
 
