@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="short icon" href="img/icon/satellite.ico">
+    <title>Online RS | 在线遥感原理及应用课程</title>
+    <link rel="stylesheet" type="text/css" href="css/mian.css">
+    <link rel="stylesheet" href="css/zoom.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="css/8.css"/>
+</head>
+<body>
+<div class="head">
+    <h1 style="text-align: center;padding-top: 40px">遥感原理及应用在线课程</h1>
+    <div class="info">
+        <h5 style="color: rgb(120, 107, 107)">教师：夏清</h5>
+    </div>
+</div>
+<div class="wrapper">
+    <div class="sidebar" id="sidebar">
+        <h4>目录</h4>
+        <div id="firstpane" class="menu_list">
+            <p class="menu_head current">遥感平台</p>
+            <div style="display:block" class=menu_body >
+                <a href="index.html#dmpt">遥感平台</a>
+                <a href="2.html">气象卫星系列</a>
+                <a href="3.html">陆地卫星系列--- Landsat</a>
+                <a href="4.html">陆地卫星系列--- SPOT卫星</a>
+                <a href="5.html">陆地卫星系列--- IKONOS</a>
+                <a href="5.html#QuickBird">陆地卫星系列--- QuickBird</a>
+
+            </div>
+            <p class="menu_head">摄影成像</p>
+            <div style="display:none" class=menu_body >
+                <a href="6.html#jhtz">摄影机与摄影像片的几何特征</a>
+                <a href="6.html#wltz">摄影胶片的物理特性</a>
+
+            </div>
+            <p class="menu_head">扫描成像</p>
+            <div style="display:none" class=menu_body >
+                <a href="7.html#gd">光/机扫描成像</a>
+                <a href="7.html#gt">固体自扫描成像</a>
+                <a href="7.html#ggpcx">高光谱成像光谱扫描</a>
+
+            </div>
+            <p class="menu_head">微波遥感与成像</p>
+            <div style="display:none" class=menu_body >
+                <a href="8.html#wbtd">微波遥感的特点</a>
+                <a href="8.html#wbygfs">微波遥感方式和传感器</a>
+
+            </div>
+            <p class="menu_head">遥感图像的特征</p>
+            <div style="display:none" class=menu_body >
+                <a href="9.html#kjfbl">图像的空间分辨率</a>
+                <a href="9.html#gpgbl">图像的光谱分辨率</a>
+                <a href="9.html#sjfbl">图像的时间分辨率</a>
+                <a href="9.html#kczj">课程总结</a>
+            </div>
+            <p class="menu_head">关于</p>
+            <div style="display:none" class=menu_body >
+                <a href="9.html#kczj">课程总结</a>
+                <a href="discuss.html">留言</a>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+
+        <!-- 主要内容 -->
+        <div class="contain">
+            <div class="warp">
+                <h2>微波遥感与成像</h2>
+                <h4 id="wbtd">一、微波遥感的特点</h4>
+                <p><strong>微波遥感：</strong>指通过传感器获取从目标地物发射或反射的微波辐射，经过判读处理来认识地物的技术。</p>
+                <p><strong>微波遥感的特点：</strong>
+                    1）能全天候、全天时工作；
+                    2）对某些地物具有特殊的波谱特征；
+                    3）对冰、雪、森林、土壤等具有一定穿透力；
+                    4）对海洋遥感具有特殊意义；
+                    5）分辨率较低，但特性明显。
+                </p>
+                <img class="img" src="img/picture/8-1.jpg" alt="..."/>
+                <h4 id="wbygfs">二、微波遥感方式和传感器</h4>
+                <p><strong>几种光机扫描仪:</strong><br/>
+                    1、主动微波遥感：指通过向目标物发射微波并接收其后向散射信号来实现对地观测遥感方式。<br/>
+                    2、被动微波遥感: 通过传感器，接收来自目标地物发射的微波，而达到探测目的的遥感方式，称被动微波遥感。<br/>
+                </p>
+                <img class="img" src="img/picture/8-2.jpg" alt="..."/>
+                <p>
+                    <strong>主动微波遥感:</strong>
+                    （1）雷达Radar(Radio Direction And Range)<br/>
+                    雷达的用途：用于测定目标的位置、方向、距离和运动目标的速度。<br/>
+                    雷达的工作方式：由发射机通过天线在很短时间内，向目标地物发射一束很窄的大功率电磁波脉冲，然后用同一天线接收目标地物反射的回波信号而进行显示的一种传感器。<br/>
+                </p>
+                <p>
+                    （2）侧视雷达（Side Looking Radar)<br/>
+                    侧视雷达的天线不是安装在遥感平台的正下方，而是与遥感平台的运动方向形成角度，朝向一侧或两侧倾斜安装，向侧下方发射微波，接收回波信号，其工作原理如下图所示：
+                </p>
+                <img class="img" src="img/picture/8-3.jpg" alt="..."/>
+                <p><strong>侧视雷达的分辨力可分为：</strong><br/>
+                    1）距离分辨力（垂直于飞行的方向）俯角越大，距离分辨力越低；俯角越小，距离分辨力越大。要提高距离分辨力，必须降低脉冲宽度。但脉冲宽度过低则反射功率下降，实际应用采用脉冲压缩的方法。<br/>
+                    2）方位分辨力（平行于飞行方向）。要提高方位分辨力，只有加大天线孔径、缩短探测距离和工作波长。
+                </p>
+                <img class="img" src="img/picture/8-4.jpg" alt="..."/>
+                <img class="img" src="img/picture/8-5.jpg" alt="..."/>
+                <img class="img" src="img/picture/8-6.jpg" alt="..."/>
+
+                <p>
+                    <strong>思考题:</strong><br/>
+                    一给定的机载侧视雷达系统SLAR的天线束宽1.8毫弧（mrad），求解距离为6km和12km时该系统的方位分辨率？
+                </p>
+                <p>为什么要采取侧视雷达而不采取正视雷达？ </p>
+                <img class="img" src="img/picture/8-7.jpg" alt="..."/>
+                <p> （3）合成孔径侧视雷达（SAR）:合成孔径侧视雷达的方位分辨力与距离无关，只与天线的孔径有关。所以，可用于高轨卫星。天线越小，方位分辨力越高。</p>
+                <img class="img" src="img/picture/8-8.jpg" alt="..."/>
+                <img class="img" src="img/picture/8-9.jpg" alt="..."/>
+                <p>
+                    <strong>思考题:</strong><br/>
+                    为什么要采用合成孔径雷达而不采用真实孔径雷达？
+                </p>
+                <img class="img" src="img/picture/8-10.jpg" alt="..."/>
+                <img class="img"  src="img/picture/8-11.jpg" alt="..."/>
+                <img  class="img" src="img/picture/8-12.jpg" alt="..."/>
+                <h4>补充：微波遥感的工作波段</h4>
+                <img class="img" src="img/picture/8-13.jpg" alt="..."/>
+            </div>
+        </div>
+
+        <div class="footer">
+            <!-- 回到顶部 和 留言-->
+            <div class="toTop">
+                <div class="discuss_btn">
+                    <a class="btn" href="discuss.html" onclick="" id="discuss-btn" aria-label="Discuss" title="留言">
+                        <span><img src="img/png/discuss.png"></span>
+                    </a>
+                </div>
+                <div class="backtotop">
+                    <a class="btn" href="#" id="back-to-top" aria-label="Back to Top" title="回到顶部">
+                        <span><img src="img/png/totop.png"></span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- 导航条 -->
+            <div class="daohang">
+                <ul class="">
+                    <li>
+                        <a href="7.html" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li><a href="5.html">5</a></li>
+                    <li><a href="6.html">6</a></li>
+                    <li><a href="7.html">7</a></li>
+                    <li class="active"><a href="javascript:;">8</a></li>
+                    <li><a href="9.html">9</a></li>
+                    <li>
+                        <a href="9.html" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- copyright -->
+            <div class="copyright">
+                <h5 style="text-align: center;line-height: 40px">西南科技大学环境与资源学院出品</h5>
+                <p style="font-size: 11px;text-align: center"><span>Copyright © 西南科技大学环境与资源学院 | yinpan</span></p>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-2.1.3.min.js"></script>
+<script src="js/zoom.min.js"></script>
+<script src="js/rs.js"></script>
+</body>
+</html>

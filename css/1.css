@@ -1,33 +1,96 @@
 .contain{
-	margin-top: 10px;
+	font-size: 12px;
+	line-height: 1.8;
+	text-indent: 1em;
+	padding: 10px;
+	background: rgba(239, 226, 226, 0.2) url(../img/png/rainbow.png) top right no-repeat;
 }
-.content_0{
-	max-width: 800px;
-	margin: 0 auto;
+.contain h2{
+	text-align: center;
+	font-weight: bolder;
 }
-.title p{
-	font-size: 1.2em;
-	margin-top: 20px;
+.contain ul{
+	list-style: none;
+}
+.wrap{
+	margin-top: 30px;
+}
+h4{
+	margin-top: 40px;
+	background: #187FAA;
+	border-top: 2px solid #ea820b;
+	color: white;
+	font-size: 17px;
+	margin-bottom: 10px;
+	display: block;
+	width: 200px;
+}
+strong{
+	line-height: 45px;
+}
+.left{
+	float: left;
+	width: 48%;
 	text-indent: 2em;
 }
-.tab-content{
-	padding: 10px 0 40px 20px;
-	margin-bottom: 20px;
-	border-bottom: 1px solid #ddd;
-	height: 300px;
-}
-.tab-content span{
-	font-weight: bolder;
-	color: rgb(144, 28, 28);
-	font-size: 1.1em;
-}
-.tab-left-right div{
-	float: left;
-	width: 45%;
-	margin-right: 5%;
+.left p{
+	font-size: 13px;
+	margin-bottom: 5px;
 }
 .right{
-	padding-left: 5%;
-	border-left: 1px dotted #333;
+	float: right;
+	width: 48%;
+	text-indent: 2em;
+	border-left: 2px dashed #ccc;
+	padding-left: 5px;
+}
+.right p{
+	font-size: 13px;
+	margin-bottom: 5px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tablebox{
+	margin: 25px auto 10px;
+	font-size: 15px;
+	width: 100%;
+	border-spacing:2;
+	border-collapse:collapse;
+
+}
+.tablebox .tablehead{
+	font-weight: bolder;
+	font-size: 17px;
+	border-bottom: 1px solid #ccc;
+	background: rgb(231, 236, 222);
+}
+.table{
+	width: 100%;
+	text-align: center;
+}
+.picture h4{
+	width: 100%;
+}
+.tablebox th{
+	background: #D2DBE6;
+	color: white;
+	line-height: 22px;
+}
+.tablebox tr{
+	display: table-row;
+}

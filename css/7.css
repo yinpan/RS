@@ -1,0 +1,77 @@
+.contain{
+    font-size: 12px;
+    line-height: 1.8;
+    text-indent: 1em;
+    padding: 10px;
+    background: rgba(239, 226, 226, 0.2) url(../img/png/rainbow.png) top right no-repeat;
+}
+.contain h2{
+    text-align: center;
+    font-weight: bolder;
+}
+.contain ul{
+    list-style: none;
+}
+.wrap{
+    margin-top: 30px;
+}
+h4{
+    margin-top: 40px;
+    background: #187FAA;
+    border-top: 2px solid #ea820b;
+    color: white;
+    font-size: 17px;
+    margin-bottom: 10px;
+    display: block;
+    width: 300px;
+}
+strong{
+    line-height: 45px;
+}
+.iko{
+    text-indent: 2em;
+    width: 100%;
+    margin: 30px 20px 40px 0px;
+
+}
+.ikoleft{
+    float: left;
+    width: 300px;
+    margin-right: 80px;
+    text-align: center;
+}
+.iko img{
+    width: 100%;
+}
+.imgcenter{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.imgcenter ul{
+    width: 100%;
+    margin: 20px auto 3px;
+}
+.imgcenter li{
+    width: 80%;
+    margin: 0 auto;
+}
+.imgcenter li img{
+    width: 98%;
+}
+.warp p{
+    padding-left:20px;
+    text-indent:0;
+}
+.img_left_right ul{
+    width: 100%;
+}
+.img_left_right li{
+    width: 45%;
+    float: left;
+    margin: 10px 15px;
+}
+.img_left_right li img{
+    width: 96%;
+    height: 243px;
+}
+

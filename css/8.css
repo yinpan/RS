@@ -1,0 +1,40 @@
+.contain{
+    font-size: 12px;
+    line-height: 1.8;
+    text-indent: 1em;
+    padding: 10px;
+    background: rgba(239, 226, 226, 0.2) url(../img/png/rainbow.png) top right no-repeat;
+}
+.contain h2{
+    text-align: center;
+    font-weight: bolder;
+}
+.contain ul{
+    list-style: none;
+}
+.wrap{
+    margin-top: 30px;
+}
+h4{
+    margin-top: 40px;
+    background: #187FAA;
+    border-top: 2px solid #ea820b;
+    color: white;
+    font-size: 17px;
+    margin-bottom: 10px;
+    display: block;
+    width: 300px;
+}
+strong{
+    line-height: 45px;
+}
+
+.warp p{
+    padding-left:20px;
+    text-indent:0;
+}
+.img{
+    width: 92%;
+    display: block;
+    margin: 5px auto;
+}

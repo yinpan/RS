@@ -1,76 +1,136 @@
 .contain{
-	margin-top: 10px;
+	font-size: 12px;
+	line-height: 1.8;
+	text-indent: 1em;
+	padding: 10px;
+	background: rgba(239, 226, 226, 0.2) url(../img/png/rainbow.png) top right no-repeat;
 }
-.content_0{
-	max-width: 800px;
-	margin: 0 auto;
-}
-ol{
-	list-style: upper-alpha;
-	padding-left: 25px;
-}
-
-.contain .content_0 span{
-	color:red;
+.contain h2{
+	text-align: center;
 	font-weight: bolder;
 }
-.contain p{
-	text-indent: 2em;
-}
-.part{
-	margin: 70px 0;
-}
-.part ul{
+.contain ul{
 	list-style: none;
 }
-.part ul li{
-	display: inline-block;
-	width: 189px;
-	position: relative;
-	padding-bottom: 40px;
+.wrap{
+	margin-top: 30px;
+}
+h4{
+	margin-top: 40px;
+	background: #187FAA;
+	border-top: 2px solid #ea820b;
+	color: white;
+	font-size: 17px;
 	margin-bottom: 10px;
-	border-radius: 5px;
+	display: block;
+	width: 300px;
 }
-.part .picture li{
-	width: 340px;
+strong{
+	line-height: 45px;
 }
-.part ul li:hover{
 
-}
-.part ul li p{
-	position: absolute;
-	bottom: 2px;
-	text-indent: 0;
-}
-.part_2 .piccenter{
-	width: 700px;
-	margin: 10px 40px 70px;
-}
-.part_2 img.picleft{
-	width: 200px;
-	margin-right: 50px;
-}
-.part_2 img.picright{
-	width: 500px;
-	height: 168px;
-}
-.part_3 ul li p{
-	left: 40%;
-}
-.part_4 ul li p{
-	left: 20%;
-}
-.part .left{
-	float: left;
-	width: 350px;
-}
-.part .left li{
-	width: 340px;
-}
-.part .right{
+.right{
 	float: right;
-	width: 350px;
+	width: 245px;
 }
-.part .right li{
-	width: 340px;
+.right p{
+	text-indent: 0em;
+}
+.part1{
+	width: 100%;
+}
+.part1 .picleft{
+	width: 30%;
+	height: auto;
+	margin-left: 10px;
+}
+.part1 .picright{
+	width: 61%;
+	height: 180px;
+	margin-left: 1%;
+}
+.part1 h3{
+	margin-top: 40px;
+	background: #187FAA;
+	border-top: 2px solid #ea820b;
+	color: white;
+	font-size: 17px;
+	margin-bottom: 10px;
+	display: block;
+	width: 100%;
+}
+.part1 ul{
+	margin: 25px auto;
+}
+.part1 li.piccenter{
+	width: 700px;
+	overflow: hidden;
+	margin: 10px auto;
+}
+
+.part1 li.piccenter a{
+	width: 100%;
+}
+.part1 .piccenter img{
+	display: block;
+	max-width: 700px;
+	height: auto;
+}
+.part2{
+	margin-top: 50px;
+}
+.part2 li{
+	width: 237px;
+	float: left;
+	overflow: hidden;
+	cursor: pointer;
+	margin-bottom: 15px;
+}
+.part2 li p{
+	text-align: center;
+	line-height: 17px;
+	font-size: 12px;
+}
+.part2 li img{
+	max-width: 225px;
+}
+.part3{
+	padding-top: 20px;
+	margin-top: 10px
+	border-top:2px solid #ccc;
+	position: relative;
+}
+.part3 .left{
+	width: 46%;
+	overflow: hidden;
+}
+.part3 .right{
+	position: absolute;
+	top: 20px;
+	right: 0;
+	width: 46%;
+	margin: 0 1%;
+	overflow: hidden;
+}
+.part3 img{
+	width: 100%;
+}
+.part4 span{
+	color: #665858;
+    font-weight: normal;
+}
+.part4 .right{
+	float: right;
+	width: 300px;
+	margin-right: 70px;
+}
+.part4 .right p{
+	text-indent: 2em;
+}
+.part4 img.pic-1{
+	width: 70%;
+	margin: 20px auto 10px;
+}
+.part4 img.pic-2{
+	width: 40%;
 }

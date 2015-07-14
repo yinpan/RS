@@ -10,34 +10,34 @@
        		};
 		});
 
-    // // 展开菜单
-    // $(".add > a").click(function() {
-    //       $(this).addClass('current')
-    //       .next().show()
-    //       .parent().siblings().children('a').removeClass('current')
+    // 移动movenote
+    $('#banner').mousedown( 
+        function (event) { 
+        var isMove = true; 
+        var abs_x = event.pageX - $('div.movenote').offset().left; 
+        var abs_y = event.pageY - $('div.movenote').offset().top; 
 
-    //       .next().hide();
-    //       return false;
-    // });
-
-    // // 移动movenote
-    // $('#banner').mousedown( 
-    //     function (event) { 
-    //     var isMove = true; 
-    //     var abs_x = event.pageX - $('div.movenote').offset().left; 
-    //     var abs_y = event.pageY - $('div.movenote').offset().top; 
-
-    //     $(document).mousemove(function (event) { 
-    //     if (isMove) { 
-    //     var obj = $('div.movenote'); 
-    //     obj.css({'left':event.pageX - abs_x, 'top':event.pageY - abs_y}); 
-    //     } 
-    //     } 
-    //     ).mouseup( 
-    //     function () { 
-    //     isMove = false; 
-    //     } 
-    //     ); 
-    //     } 
-    // ); 
+        $(document).mousemove(function (event) { 
+        if (isMove) { 
+        var obj = $('div.movenote'); 
+        obj.css({'left':event.pageX - abs_x, 'top':event.pageY - abs_y}); 
+        } 
+        } 
+        ).mouseup( 
+        function () { 
+        isMove = false; 
+        } 
+        ); 
+        } 
+    );
+    $("#firstpane .menu_body:eq(0)").show();
+    $("#firstpane p.menu_head").click(function(){
+        $(this).addClass("current").next("div.menu_body").slideToggle(300).siblings("div.menu_body").slideUp("slow");
+        $(this).siblings().removeClass("current");
+    });
+    $("#secondpane .menu_body:eq(0)").show();
+    $("#secondpane p.menu_head").mouseover(function(){
+        $(this).addClass("current").next("div.menu_body").slideDown(500).siblings("div.menu_body").slideUp("slow");
+        $(this).siblings().removeClass("current");
+    });
 	})();

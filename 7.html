@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="short icon" href="img/icon/satellite.ico">
+    <title>Online RS | 在线遥感原理及应用课程</title>
+    <link rel="stylesheet" type="text/css" href="css/mian.css">
+    <link rel="stylesheet" href="css/zoom.css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="css/7.css"/>
+</head>
+<body>
+<div class="head">
+    <h1 style="text-align: center;padding-top: 40px">遥感原理及应用在线课程</h1>
+    <div class="info">
+        <h5 style="color: rgb(120, 107, 107)">教师：夏清</h5>
+    </div>
+</div>
+<div class="wrapper">
+    <div class="sidebar" id="sidebar">
+        <h4>目录</h4>
+        <div id="firstpane" class="menu_list">
+            <p class="menu_head current">遥感平台</p>
+            <div style="display:block" class=menu_body >
+                <a href="index.html#dmpt">遥感平台</a>
+                <a href="2.html">气象卫星系列</a>
+                <a href="3.html">陆地卫星系列--- Landsat</a>
+                <a href="4.html">陆地卫星系列--- SPOT卫星</a>
+                <a href="5.html">陆地卫星系列--- IKONOS</a>
+                <a href="5.html#QuickBird">陆地卫星系列--- QuickBird</a>
+
+            </div>
+            <p class="menu_head">摄影成像</p>
+            <div style="display:none" class=menu_body >
+                <a href="6.html#jhtz">摄影机与摄影像片的几何特征</a>
+                <a href="6.html#wltz">摄影胶片的物理特性</a>
+
+            </div>
+            <p class="menu_head">扫描成像</p>
+            <div style="display:none" class=menu_body >
+                <a href="7.html#gd">光/机扫描成像</a>
+                <a href="7.html#gt">固体自扫描成像</a>
+                <a href="7.html#ggpcx">高光谱成像光谱扫描</a>
+
+            </div>
+            <p class="menu_head">微波遥感与成像</p>
+            <div style="display:none" class=menu_body >
+                <a href="8.html#wbtd">微波遥感的特点</a>
+                <a href="8.html#wbygfs">微波遥感方式和传感器</a>
+
+            </div>
+            <p class="menu_head">遥感图像的特征</p>
+            <div style="display:none" class=menu_body >
+                <a href="9.html#kjfbl">图像的空间分辨率</a>
+                <a href="9.html#gpgbl">图像的光谱分辨率</a>
+                <a href="9.html#sjfbl">图像的时间分辨率</a>
+                <a href="9.html#kczj">课程总结</a>
+            </div>
+            <p class="menu_head">关于</p>
+            <div style="display:none" class=menu_body >
+                <a href="9.html#kczj">课程总结</a>
+                <a href="discuss.html">留言</a>
+            </div>
+        </div>
+    </div>
+<div class="main">
+
+    <!-- 主要内容 -->
+    <div class="contain">
+        <div class="warp">
+            <h2>扫描成像</h2>
+            <h4 id="gd">一、光/机扫描成像</h4>
+            <p><strong>照相技术的弱点：乳胶片感光技术本身存在着致命的弱点，它所传感的辐射波段仅限于可见光及其附近；其次，照相一次成型，图象存储、 传输和处理都不方便。</strong></p>
+            <p><strong>扫描成像原理：</strong>依靠机械传动装置使光学镜头摆动，形成对目标地物逐点逐行扫描。探测元件把接受到的电磁波能量能转换成电信号，在磁介质上记录或再经电/光转换成为光能量，在设置于焦平面的胶片上形成影像：<br/>
+                1）瞬时视场角（IFOV）：扫描镜在一瞬时时间可以视为静止状态，此时，接受到的目标物的电磁波辐射，限制在一个很小的角度之内，这个角度称为瞬时视场角。即扫描仪的空间分辨率；<br/>
+                2）总视场角：扫描带的地面宽度称总视场。从遥感平台到地面扫描带外侧所构成的夹角，叫总视场角。
+            </p>
+            <p><strong>几种光机扫描仪:</strong><br/>
+                1）红外扫描仪：接受地物的红外辐射能量，并把它传给探测元件。<br/>
+                2）多光谱扫描仪（MSS)：与红外扫描仪基本类似，其不同之处是，外加一个分光系统，把来自地物的电磁波信号，分成若干个不同的波段，同时用多个探测器同步记录相应波段的信息。而红外扫描仪只在红外波段工作。<br/>
+                3）专题制图仪TM：专题制图仪TM的成像原理与MSS一致，与MSS相比，空间分辨率由80米提高到30米；探测波段由4个增加到7个。<br/>
+                特点：利用光电探测器解决了各种波长辐射的成像方法。输出的电学图象数据，存储、传输和处理方面十分方便。但装置庞杂，高速运动使其可靠性差；在成像机理上，存在着目标辐射能量利用率低的致命弱点。
+            </p>
+            <div class="img_left_right">
+                <ul class="gallery">
+                    <li class="piccenter"><a href="img/picture/7-1.jpg"><i></i><img src="img/picture/7-1.jpg"
+                                                                                     alt="..."/></a></li>
+                    <li class="piccenter"><a href="img/picture/7-2.jpg"><i></i><img src="img/picture/7-2.jpg"
+                                                                                     alt="..."/></a></li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+            <h4 id="gt">二、固体自扫描成像</h4>
+            <p>
+                1）固体自扫描是用固定的探测元件，通过遥感平台的运动对目标地物进行扫描的一种成像方式。<br/>
+                2）电子藕合器件CCD：是一种用电荷量表示信号大小，用耦合方式传输信号的探测元件。具有感受波谱范围宽、畸变小、体积小、重量轻、系统噪声低、灵敏度高、动耗小、寿命长、可靠性高等一系列优点。<br/>
+                3）扫描方式上具有刷式扫描成像特点。探测元件数目越多，体积越小，分辨率就越高。电子藕合器件CCD逐步替代光学机械扫描系统。如：HRV
+            </p>
+            <div class="img_left_right">
+                <ul class="gallery">
+                    <li class="piccenter"><a href="img/picture/7-3.jpg"><i></i><img src="img/picture/7-3.jpg"
+                                                                                    alt="..."/></a></li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+            <h4 id="ggpcx">三、高光谱成像光谱扫描</h4>
+            <p>
+                <strong>成像光谱仪：</strong>既能成像又能获取目标光谱曲线的“谱像合一”的技术，称为成像光谱技术。按该原理制成的扫描仪称为成像光谱仪。<br/>
+                <strong>特点：</strong>高光谱成像仪是遥感进展的新技术，其图象是多达数百个波段的非常窄的连续的光谱波段组成，光谱波段覆盖了可见光、近红外、中红外和热红外区域全部光谱带。光谱仪成像时多采用扫描式和推帚式，可以收集200或200以上波段的收据数据。使图象中的每一像元均得到连续的反射率曲线，而不像其他一般传统的成像谱光仪在波段之间存在间隔。
+            </p>
+            <div class="img_left_right">
+                <ul class="gallery">
+                    <li class="piccenter"><a href="img/picture/7-4.jpg"><i></i><img src="img/picture/7-4.jpg"  alt="..."/></a></li>
+                    <li class="piccenter"><a href="img/picture/7-5.jpg"><i></i><img src="img/picture/7-5.jpg"  alt="..."/></a></li>
+                    <li class="piccenter"><a href="img/picture/7-6.jpg"><i></i><img src="img/picture/7-6.jpg"  alt="..."/></a></li>
+                    <li class="piccenter"><a href="img/picture/7-7.jpg"><i></i><img src="img/picture/7-7.jpg"  alt="..."/></a></li>
+                    <li class="piccenter"><a href="img/picture/7-8.jpg"><i></i><img src="img/picture/7-8.jpg"  alt="..."/></a></li>
+                    <li class="piccenter"><a href="img/picture/7-9.jpg"><i></i><img src="img/picture/7-9.jpg"  alt="..."/></a></li>
+                    <li class="piccenter"><a href="img/picture/7-10.jpg"><i></i><img src="img/picture/7-10.jpg"  alt="..."/></a></li>
+                    <li class="piccenter"><a href="img/picture/7-11.jpg"><i></i><img src="img/picture/7-11.jpg"  alt="..."/></a></li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+            <p style="margin-bottom: 30px;"><strong>思考题:</strong>扫描成像的基本原理是什么？扫描图像与摄影图像有何区别？</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <!-- 回到顶部 和 留言-->
+        <div class="toTop">
+            <div class="discuss_btn">
+                <a class="btn" href="discuss.html" onclick="" id="discuss-btn" aria-label="Discuss" title="留言">
+                    <span><img src="img/png/discuss.png"></span>
+                </a>
+            </div>
+            <div class="backtotop">
+                <a class="btn" href="#" id="back-to-top" aria-label="Back to Top" title="回到顶部">
+                    <span><img src="img/png/totop.png"></span>
+                </a>
+            </div>
+        </div>
+
+        <!-- 导航条 -->
+        <div class="daohang">
+            <ul class="">
+                <li>
+                    <a href="6.html" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                <li><a href="5.html">5</a></li>
+                <li><a href="6.html">6</a></li>
+                <li class="active"><a href="javascript:;">7</a></li>
+                <li><a href="8.html">8</a></li>
+                <li><a href="9.html">9</a></li>
+                <li>
+                    <a href="8.html" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- copyright -->
+        <div class="copyright">
+            <h5 style="text-align: center;line-height: 40px">西南科技大学环境与资源学院出品</h5>
+            <p style="font-size: 11px;text-align: center"><span>Copyright © 西南科技大学环境与资源学院 | yinpan</span></p>
+        </div>
+    </div>
+</div>
+</div>
+<script src="js/jquery-2.1.3.min.js"></script>
+<script src="js/zoom.min.js"></script>
+<script src="js/rs.js"></script>
+</body>
+</html>
